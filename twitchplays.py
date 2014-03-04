@@ -31,7 +31,7 @@ while 1:
             if nextstep == obstacles[step]:
                 print("tried to run into an obstacle")
                 continue
-            if steps[step-1] == ((nextstep+2)%4):
+            if step > 1 and nextstep == ((prevstep+2)%4):
                 print("Moved back ",directions[nextstep])
                 step = step-1
                 if step < 0:
@@ -46,6 +46,7 @@ while 1:
                 continue
         else:
             print("moved ",directions[nextstep])
+            prevstep = nextstep
             step = step+1
             if step > furthest:
                 furthest=step
