@@ -4,6 +4,13 @@ import random
 import time
 directions = ['up','right','down','left']
 steps = [0,1,1,0,0,0,3,3,3,0,0,0,1,1,1,0,0,3,0,0]
+obstacles = []
+for i in range(len(steps)):
+    obstacles.append(4)
+obstacles[0] = 3
+obstacles[5] = 1
+obstacles[10] = 3
+obstacles[15] = 1
 
 tries = 1
 
@@ -21,6 +28,9 @@ while 1:
     print("Will move ",directions[nextstep])
     if nextstep == looking:
         if steps[step]!=nextstep:
+            if nextstep == obstacles[step]:
+                print("tried to run into an obstacle")
+                continue
             if steps[step-1] == ((nextstep+2)%4):
                 print("Moved back ",directions[nextstep])
                 step = step-1
