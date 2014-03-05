@@ -15,8 +15,11 @@ class Gym:
            [1,1,1,0,1,1,0,0,1,1],
            [1,1,1,1,1,1,1,1,1,1]]
 
-    def GetTile(x, y):
+    def GetTile(self, loc):
+        if loc[0] < 0 or loc[1] < 0:
+            return -1
+        
         try:
-            return Map[y][x]
-        return:
+            return Gym.Map[loc[1]][loc[0]]
+        except:
             return -1
