@@ -16,3 +16,5 @@ Tue Mar  4 19:50:19 2014: Attempt 2429182: 15/20 steps: up right right up up up 
 Tue Mar  4 19:50:19 2014: Attempt 2429182: 16/20 steps: up right right up up up left left left up up up right right right left right up 
 Tue Mar  4 19:50:19 2014: Attempt 2429182: 17/20 steps: up right right up up up left left left up up up right right right left right up up 
 Tue Mar  4 19:54:10 2014: Attempt 6255919: 18/20 steps: up right right up up up left left left up up up right right right up up left 
+Tue Mar  4 21:39:19 2014: Attempt 99648661: 19/20 steps: up right right up up up left left left up up up right right right up up left up 
+Tue Mar  4 21:39:19 2014: Attempt 99648661: 20/20 steps: up right right up up up left left left up up up right right right up up left up up 
