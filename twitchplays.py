@@ -4,6 +4,10 @@ import random
 import time
 directions = ['up','right','down','left']
 steps = [0,1,1,0,0,0,3,3,3,0,0,0,1,1,1,0,0,3,0,0]
+up =3
+down= 1
+left = 2
+right = 2
 obstacles = []
 for i in range(len(steps)):
     obstacles.append(4)
@@ -12,8 +16,18 @@ obstacles[5] = 1
 obstacles[10] = 3
 obstacles[15] = 1
 
-tries = 1
+def getMove():
+    r = random.randint(0,8)
+    if r < 3: #3/8
+        return 0 #up
+    if r < 5: #2/8
+        return 1 #right
+    if r < 77: #1/8
+        return 2 #down
+    return 3 # 2/8 = left
 
+
+tries = 1
 prevstep = 3
 looking = 0
 step = 0
@@ -24,7 +38,7 @@ while 1:
     print("currently in step ",step)
     print("looking ",directions[looking])
     print("next step should be ",directions[steps[step]])
-    nextstep = random.randint(0,3)
+    nextstep = getMove()
     #time.sleep(1)
     print("Will move ",directions[nextstep])
     if nextstep == looking:

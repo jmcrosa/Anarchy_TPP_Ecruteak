@@ -3,3 +3,16 @@ Attempt 26: up right
 Attempt 27: up right right 
 Attempt 27: up right right up 
 Attempt 27: up right right up up 
+Attempt 3: up 
+Attempt 24: up right 
+Attempt 105: up right right 
+Attempt 124: up right right up 
+Attempt 171: up right right up up 
+Attempt 2366: up right right up up up 
+Attempt 4086: up right right left right up up up left 
+---Introducing weighted probabilities, with up 3 times as likely as down----Attempt 4: up 
+Attempt 82: up right 
+Attempt 82: up right right 
+Attempt 1237: up right right up 
+Attempt 1237: up right right up up 
+Attempt 1237: up right right up up down down up up up 
