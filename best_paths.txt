@@ -23,3 +23,9 @@ Attempt 89: up right right
 Attempt 89: up right right up 
 Attempt 89: up right right up up 
 Attempt 89: up right right up up up 
+Attempt 1: up 
+Attempt 37: up right 
+Attempt 37: up right right 
+Attempt 428: up right right up 
+Attempt 742: up right right up up 
+Attempt 742: up right right up up up 
