@@ -106,7 +106,9 @@ while 1:
             if step > furthest:
                 furthest=step
                 log = open("best_paths.txt","a")
-                log.write("Attempt "+str(tries)+": ")
+                log.write(time.asctime())
+                log.write(": Attempt "+str(tries)+": ")
+                log.write(str(furthest)+"/"+str(len(steps))+" steps: ")
                 for i in path:
                     log.write(i+" ")
                 log.write("\n")
