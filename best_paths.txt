@@ -29,3 +29,22 @@ Attempt 37: up right right
 Attempt 428: up right right up 
 Attempt 742: up right right up up 
 Attempt 742: up right right up up up 
+Attempt 1: up 
+Attempt 20: up right 
+Attempt 36: up right right 
+Attempt 36: up right right up 
+Attempt 1506: up right right up up 
+Attempt 1506: up right right up up down up down down up up up 
+-----Added weighted possibilities coordinating with path ----
+Attempt 1: up 
+Attempt 1: up right 
+Attempt 1: up right right 
+Attempt 1: up right right up 
+Attempt 71: up right left right right up up 
+Attempt 276: up right right up up up 
+Attempt 276: up right right up up up left 
+Attempt 276: up right right up up up left left 
+Attempt 276: up right right up up up left left left 
+Attempt 276: up right right up up up left left left up 
+Attempt 276: up right right up up up left left left up up 
+Attempt 276: up right right up up up left left left up up up 
