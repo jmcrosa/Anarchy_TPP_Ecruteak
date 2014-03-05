@@ -18,3 +18,29 @@ Tue Mar  4 19:50:19 2014: Attempt 2429182: 17/20 steps: up right right up up up 
 Tue Mar  4 19:54:10 2014: Attempt 6255919: 18/20 steps: up right right up up up left left left up up up right right right up up left 
 Tue Mar  4 21:39:19 2014: Attempt 99648661: 19/20 steps: up right right up up up left left left up up up right right right up up left up 
 Tue Mar  4 21:39:19 2014: Attempt 99648661: 20/20 steps: up right right up up up left left left up up up right right right up up left up up 
+
+
+------------- SIMULATION 1------------
+Tue Mar  4 23:58:12 2014 STATUS: Try #1 Furthest is 0
+Tue Mar  4 23:58:12 2014: Attempt 1: 1/20 steps: up 
+Tue Mar  4 23:58:12 2014: Attempt 1: 2/20 steps: up right 
+Tue Mar  4 23:58:12 2014: Attempt 1: 3/20 steps: up right right 
+Tue Mar  4 23:58:12 2014: Attempt 117: 4/20 steps: up right right up 
+Tue Mar  4 23:58:12 2014: Attempt 252: 5/20 steps: up right right up up 
+Tue Mar  4 23:58:12 2014: Attempt 308: 6/20 steps: up right right up up up 
+Tue Mar  4 23:58:12 2014: Attempt 586: 7/20 steps: up right right up up up left 
+Tue Mar  4 23:58:12 2014: Attempt 586: 8/20 steps: up right right up up up left left 
+Tue Mar  4 23:58:12 2014: Attempt 586: 9/20 steps: up right right up up up left left left 
+Tue Mar  4 23:58:13 2014: Attempt 15935: 10/20 steps: up right right up up up left left left up 
+Tue Mar  4 23:58:13 2014: Attempt 15935: 11/20 steps: up right right up up up left left left up up 
+Tue Mar  4 23:58:15 2014: Attempt 69838: 12/20 steps: up right right up up up left left left up up up 
+Tue Mar  4 23:58:30 2014: Attempt 341437: 13/20 steps: up right left right right up up up left left left up up up right 
+Tue Mar  4 23:58:30 2014: Attempt 341437: 14/20 steps: up right left right right up up up left left left up up up right right 
+Tue Mar  4 23:58:30 2014: Attempt 341437: 15/20 steps: up right left right right up up up left left left up up up right right right 
+Tue Mar  4 23:58:30 2014: Attempt 341437: 16/20 steps: up right left right right up up up left left left up up up right right right up 
+Tue Mar  4 23:59:03 2014 STATUS: Try #982199 Furthest is 16
+Tue Mar  4 23:59:40 2014: Attempt 1777817: 17/20 steps: up right right up up up left left left up up up right right right up up 
+Tue Mar  4 23:59:49 2014 STATUS: Try #1964244 Furthest is 17
+Wed Mar  5 00:00:35 2014 STATUS: Try #2945992 Furthest is 17
+Wed Mar  5 00:01:21 2014 STATUS: Try #3927927 Furthest is 17
+Wed Mar  5 00:02:06 2014 STATUS: Try #4909426 Furthest is 17

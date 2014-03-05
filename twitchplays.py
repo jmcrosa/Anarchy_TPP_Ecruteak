@@ -61,62 +61,67 @@ def getMove(target):
         return 2
     return 3
 
-
-tries = 1
-prevstep = 3
-looking = 0
-step = 0
-furthest = 0
-path = []
-while 1:
-    nextstep = getMove(step)
-    if (tries %100) == 0:
-        print("-------TRY:",tries,"-------- Furthest is ",furthest)
-#    print("currently in step ",step)
-#    print("looking ",directions[looking])
-#    print("next step should be ",directions[steps[step]])
-    #time.sleep(1)
-#    print("Will move ",directions[nextstep])
-    if nextstep == looking:
-        if steps[step]!=nextstep:
-            if nextstep == obstacles[step]:
-#                print("tried to run into an obstacle")
-                continue
-            if step > 1 and nextstep == ((prevstep+2)%4):
-#                print("Moved back ",directions[nextstep])
-                step = step-1
-                path.append(directions[nextstep])
-                if step < 0:
-#                    print("went off initial area")
+simulations =1
+while True:
+    log = open("best_paths.txt","a")
+    log.write("------------- SIMULATION "+str(simulations)+"------------\n")
+    log.close()
+    tries = 1
+    prevstep = 3
+    looking = 0
+    step = 0
+    furthest = 0
+    path = []
+    moves = 0
+    while True:
+        nextstep = getMove(step)
+        moves += 1
+        if (moves%10000000) == 1:
+            print("-------SIM #",simulations,"TRY:",tries,"-------- Furthest is ",furthest)
+            log = open("best_paths.txt","a")
+            log.write(time.asctime()+" STATUS: Try #"+str(tries)+" Furthest is "+str(furthest)+"\n")
+            log.close()
+        if nextstep == looking:
+            if steps[step]!=nextstep:
+                if nextstep == obstacles[step]:
+    #                print("tried to run into an obstacle")
+                    continue
+                if step > 1 and nextstep == ((prevstep+2)%4):
+    #                print("Moved back ",directions[nextstep])
+                    step = step-1
+                    path.append(directions[nextstep])
+                    if step < 0:
+    #                    print("went off initial area")
+                        step = 0
+                        tries = tries + 1
+                        path = []
+                    continue
+                else:
+    #                print("Fell down in step ",step)
+                    tries = tries +1
                     step = 0
-                    tries = tries + 1
                     path = []
-                continue
+                    continue
             else:
-#                print("Fell down in step ",step)
-                tries = tries +1
-                step = 0
-                path = []
+    #            print("moved ",directions[nextstep])
+                path.append(directions[nextstep])
+                prevstep = nextstep
+                step = step+1
+                if step > furthest:
+                    furthest=step
+                    log = open("best_paths.txt","a")
+                    log.write(time.asctime())
+                    log.write(": Attempt "+str(tries)+": ")
+                    log.write(str(furthest)+"/"+str(len(steps))+" steps: ")
+                    for i in path:
+                        log.write(i+" ")
+                    log.write("\n")
+                    log.close()
+                if step > len(steps):
+                    print("Holy crap")
+                    break
                 continue
         else:
-#            print("moved ",directions[nextstep])
-            path.append(directions[nextstep])
-            prevstep = nextstep
-            step = step+1
-            if step > furthest:
-                furthest=step
-                log = open("best_paths.txt","a")
-                log.write(time.asctime())
-                log.write(": Attempt "+str(tries)+": ")
-                log.write(str(furthest)+"/"+str(len(steps))+" steps: ")
-                for i in path:
-                    log.write(i+" ")
-                log.write("\n")
-                log.close()
-            if step > len(steps):
-                print("Holy crap")
+            looking = nextstep
+    #        print("looking ",directions[looking])
             continue
-    else:
-        looking = nextstep
-#        print("looking ",directions[looking])
-        continue
