@@ -1,0 +1,18 @@
+Tue Mar  4 19:47:54 2014: Attempt 1: 1/20 steps: up 
+Tue Mar  4 19:47:54 2014: Attempt 3: 2/20 steps: up right 
+Tue Mar  4 19:47:54 2014: Attempt 6: 3/20 steps: up right right 
+Tue Mar  4 19:47:54 2014: Attempt 6: 4/20 steps: up right right up 
+Tue Mar  4 19:47:54 2014: Attempt 6: 5/20 steps: up right right up up 
+Tue Mar  4 19:47:54 2014: Attempt 142: 6/20 steps: up right right up up up 
+Tue Mar  4 19:47:54 2014: Attempt 142: 7/20 steps: up right right up up up left 
+Tue Mar  4 19:47:54 2014: Attempt 142: 8/20 steps: up right right up up up left left 
+Tue Mar  4 19:47:54 2014: Attempt 245: 9/20 steps: up right right up up up left left left 
+Tue Mar  4 19:47:55 2014: Attempt 13694: 10/20 steps: up right right up up up left left left up 
+Tue Mar  4 19:47:56 2014: Attempt 26871: 11/20 steps: up right right up up up left left left up up 
+Tue Mar  4 19:47:56 2014: Attempt 26871: 12/20 steps: up right right up up up left left left up up up 
+Tue Mar  4 19:48:08 2014: Attempt 235014: 13/20 steps: up right right up up up left left left up up up right 
+Tue Mar  4 19:48:08 2014: Attempt 235014: 14/20 steps: up right right up up up left left left up up up right right 
+Tue Mar  4 19:50:19 2014: Attempt 2429182: 15/20 steps: up right right up up up left left left up up up right right right 
+Tue Mar  4 19:50:19 2014: Attempt 2429182: 16/20 steps: up right right up up up left left left up up up right right right left right up 
+Tue Mar  4 19:50:19 2014: Attempt 2429182: 17/20 steps: up right right up up up left left left up up up right right right left right up up 
+Tue Mar  4 19:54:10 2014: Attempt 6255919: 18/20 steps: up right right up up up left left left up up up right right right up up left 
